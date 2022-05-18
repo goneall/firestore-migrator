@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -w",
+    "build": "tsc",
     "build-link": "tsc && npm link",
     "migrate": "node dist/index.js"
   },
